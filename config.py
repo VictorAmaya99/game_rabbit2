@@ -1,0 +1,46 @@
+WIDTH = 800
+HEIGHT = 400
+
+SCREEN_SIZE = (WIDTH, HEIGHT)
+ORIGIN = (0,0)
+
+CENTER = (WIDTH//2, HEIGHT//2)
+
+FPS = 60
+
+RED = (255,0,0)
+BLUE = (0,0,255)
+GREEN = (0,255,0)
+BLACK = (0,0,0)
+WHITE = (255,255,255)
+YELLOW = (255,255,0)
+LIGHT_BLUE = (1,150,255)
+PINK = (248, 131, 121)
+LIGHT_PINK = (255,182,193)
+MAGENTA = (255,0,255)
+GREY = (94, 129, 162)
+CUSTOM = (208, 247, 253)
+CUSTOM2 = (158, 204, 145)
+
+WOLF_SIZE = (40, 40)
+RABBIT_SIZE = (90, 90)
+RABBIT_FACE_SIZE =(150, 140)
+HAWK_SIZE = (80,80)
+SNAKE_SIZE = (50, 40)
+RABBIT_SPEED = 15
+
+LIVE_SIZE = (80, 80)
+
+
+DISPLAY_LEFT = 0
+DISPLAY_RIGTH = WIDTH
+
+button_width = 200
+button_height = 50
+
+COLLISION_COOLDOWN = 1000
+INVINCIBILITY_DURATION = 5000  # milliseconds (adjust as needed)
+
+
+LIVE_SPAWN_TIME = 3000  # Tiempo en milisegundos para la aparición de monedas (por ejemplo, cada 3 segundos)
+LIVE_SPAWN_CHANCE = 20  # Probabilidad de aparición de monedas (0-100)
